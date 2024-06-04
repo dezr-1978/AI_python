@@ -1,4 +1,4 @@
-# test_python
+# AI_python
 test_python_task
 -----------------
 Бібліотеки:
