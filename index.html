@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Romanishen Serhii - Ingénieur en Informatique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        .section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #4CAF50;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: 30%;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        .project-card h3 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Bienvenue sur le site de Romanishen Serhii</h1>
+        <p>Ingénieur des systèmes informatiques - Expert en développement et gestion de systèmes IT</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- À propos -->
+    <section id="about" class="section">
+        <h2>À propos de moi</h2>
+        <p>
+            Ingénieur des systèmes informatiques passionné par l'optimisation des systèmes IT et la gestion des technologies
+            complexes. Avec plus de 10 ans d'expérience, j'ai travaillé dans des environnements exigeants où j'ai conçu, administré et sécurisé des systèmes informatiques tout en optimisant la performance des réseaux et des logiciels.
+        </p>
+    </section>
+
+    <!-- Compétences -->
+    <section id="competences" class="section">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>Gestion des systèmes informatiques et réseaux</li>
+            <li>Développement logiciel (Python, JavaScript, C++)</li>
+            <li>Conception d'architectures réseau et optimisation des systèmes</li>
+            <li>Implémentation de solutions de sécurité (antivirus, firewalls, etc.)</li>
+            <li>Administration de bases de données et services cloud</li>
+        </ul>
+    </section>
+
+    <!-- Projets -->
+    <section id="projets" class="section">
+        <h2>Mes Projets</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Application de gestion de réseaux</h3>
+                <p>Création d'une application pour la gestion des réseaux d'entreprise, permettant de suivre l'état des équipements et des connexions en temps réel.</p>
+            </div>
+            <div class="project-card">
+                <h3>Plateforme d'analyse de données</h3>
+                <p>Développement d'une plateforme utilisant des algorithmes d'apprentissage automatique pour l'analyse et la prédiction des tendances économiques.</p>
+            </div>
+            <div class="project-card">
+                <h3>Automatisation des tâches d'administration</h3>
+                <p>Automatisation de diverses tâches administratives sur un réseau d'entreprise, y compris la gestion des utilisateurs et la surveillance des performances.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contactez-moi</h2>
+        <p>Pour toute demande, projet ou collaboration, n'hésitez pas à me contacter via le formulaire ci-dessous.</p>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" name="nom" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="4" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Romanishen Serhii - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
